@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+button {
+  background-color: transparent;
+  border-color: transparent;
+  cursor: pointer;
+}
+.RiveContainer {
+  /* cursor: pointer; */
+  position: absolute;
+  height: 60vh; /* Adjust the height as needed */
+  width: 100vw;  /* Adjust the width as needed */
+  background: linear-gradient(#4E5B73, #4E5B73);
+  margin: 0;
+  padding: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
