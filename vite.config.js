@@ -1,11 +1,11 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import wasm from 'vite-plugin-wasm';
-import ssr from '@vitejs/plugin-ssr';
+
 
 
 export default defineConfig({
-  plugins: [react(),wasm(),ssr()],
+  plugins: [react(),wasm()],
   server: {
     mimeTypes: {
       'application/wasm': ['wasm']
