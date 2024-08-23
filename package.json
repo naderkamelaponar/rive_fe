@@ -11,13 +11,18 @@
   },
   "dependencies": {
     "@electric-sql/pglite": "^0.2.2",
-    "@rive-app/canvas-advanced": "^2.19.7",
+    "@rive-app/canvas-advanced": "^2.20.0",
+    "@rive-app/canvas-advanced-lite": "^2.20.0",
     "@rive-app/react-canvas": "^4.13.7",
+    "@rive-app/webgl": "^2.20.0",
     "axios": "^1.7.4",
     "keycode": "^2.2.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-router-dom": "^6.26.1"
+    "react-router-dom": "^6.26.1",
+    "rive-canvas": "^0.7.6",
+    "rive-js": "^0.7.33",
+    "vite-plugin-wasm": "^3.3.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.8.0",
